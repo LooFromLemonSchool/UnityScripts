@@ -48,7 +48,7 @@ public class LoadingManager : MonoBehaviour
         }
 
         isLoadingDone = true;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(menuSceneName);
     }
 
     IEnumerator CycleTips()
